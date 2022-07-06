@@ -13,7 +13,7 @@ color:orange;
 
 
 }
-section{
+.flexible-container{
 
 display:flex;
 margin-bottom:10%;
@@ -35,6 +35,7 @@ background-image:linear-gradient(orange,tomato);
 color:white;
 padding:5px 20px;
 border-radius:4px;
+font-weight:700px;
 }
 .top-banner{
 background-image:url(images/top-banner.png);
@@ -48,4 +49,32 @@ background-image:url(images/dream-bg.png);
 background-repeat:no-repeat;
 background-position: right;
 
+}
+.experience-item{
+width:40%;
+margin-left:5%;
+margin-right:5%;
+box-shadow:10px 10px 40px gray;
+padding:20px;
+border-radius:4px;
+
+
+}
+.experience{
+
+    background-image:url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position:left;
+}
+#border-color{
+    border-left:4px solid orange;
+
+}
+#color{
+border-left:4px solid blue;
+
+}
+footer{
+    text-align:center;
+    font-weight: 700px;
 }
